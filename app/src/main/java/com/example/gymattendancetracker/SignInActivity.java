@@ -46,7 +46,12 @@ public class SignInActivity extends AppCompatActivity {
                 String txt_email = EmailSI.getText().toString();
                 String txt_pass = PasswordSI.getText().toString();
                 //method created for signIn Activity
-                SignInUser(txt_email,txt_pass);
+                try {
+                    SignInUser(txt_email,txt_pass);
+                }
+                catch (IllegalArgumentException e){
+                    Toast.makeText(SignInActivity.this , "Enter values!" , Toast.LENGTH_SHORT).show();
+                }
             }
         });
 
@@ -55,6 +60,7 @@ public class SignInActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent  intent = new Intent(SignInActivity.this,SignUpActivity.class);
                 startActivity(intent);
+
             }
         });
 
