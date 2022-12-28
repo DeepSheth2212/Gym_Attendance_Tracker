@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "819425490311",
+    "project_id": "gym-attendance-tracker",
+    "storage_bucket": "gym-attendance-tracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819425490311:android:87ff5ffc564bff58558f22",
+        "android_client_info": {
+          "package_name": "com.example.gymattendancetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "819425490311-np1h2k6ujeu7332kak0nmh4i3vseegpf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-T8s9bl7eiU09lv23e7IQNmilhzRDnnU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "819425490311-np1h2k6ujeu7332kak0nmh4i3vseegpf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
