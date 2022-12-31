@@ -21,5 +21,29 @@
 
     <style name="Theme.GymAttendanceTracker.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <style name="Theme.GymAttendanceTracker.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.GymAttendanceTracker.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />]
+    
+    <style name="Main_bg">
+        <item name="android:background">@color/lightGrey</item>
+    </style>
+
+    <style name="Edit_text">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textColorHint">@color/grey_3</item>
+    </style>
+
+
+
+    <style name="Textview">
+        <item name="android:textColor">@color/grey_3</item>
+    </style>
+
+    <style name="home_fragment">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="card_view">
+        <item name="android:backgroundTint">@color/grey_cardview</item>
+    </style>
 </resources>

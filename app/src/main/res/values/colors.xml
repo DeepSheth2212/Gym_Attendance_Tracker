@@ -10,4 +10,13 @@
     <color name="lightGrey">#EDEDED</color>
     <color name = "red">#D80D25</color>
     <color name = "Darkred">#B30024</color>
+
+    <color name = "grey_1">#212121</color>
+    <color name = "grey_2">#303030</color>
+    <color name = "grey_3">#424242</color>
+    <color name="grey_cardview">#595858</color>
+
+
+
+
 </resources>

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeFragment">
+    tools:context=".Fragments.HomeFragment"
+    style="@style/home_fragment">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
@@ -13,7 +14,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="10dp"
-        android:backgroundTint="@color/material_on_background_emphasis_medium"
+        style="@style/card_view"
         android:visibility="visible">
 
         <TextView
@@ -43,7 +44,7 @@
             android:layout_marginLeft="70dp"
             android:layout_marginTop="90dp"
             android:padding="3dp"
-            android:text="TextView"
+            android:text="Loading.."
             android:textColor="@color/white"
             android:textSize="20sp" />
     </androidx.cardview.widget.CardView>
